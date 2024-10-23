@@ -1,0 +1,30 @@
+/* style.css */
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #e0e0e0;
+}
+
+.message {
+    font-size: 1.5em;
+    color: green; /* Cor da mensagem */
+    text-align: center;
+    margin-top: 20px; /* Espaçamento acima da mensagem */
+}
