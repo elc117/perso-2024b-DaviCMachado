@@ -26,4 +26,4 @@ conciso e uma bagagem boa de aprendizado sobre programação funcional.
 
 Resultado Final:
 
-![Código Funcionando](URL_do_GIF)
+![Código Funcionando](GIF.gif)
